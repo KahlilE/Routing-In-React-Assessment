@@ -13,6 +13,7 @@ function Navigation(props) {
       <li>
         <Link to="/contact">Contact</Link>
       </li>
+      
     </ul>
   );
 }
