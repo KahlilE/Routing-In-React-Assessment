@@ -19,7 +19,7 @@ class App extends Component {
           <Route path="/welcome/:name" component={Welcome} />
           <Route path="/clock" component={Clock} />
           <Route path="/contact" component={Contact} />
-          <Route component={Page404} />
+          <Route path="/exact" component={Page404} />
         </Switch>
 
       </div>
